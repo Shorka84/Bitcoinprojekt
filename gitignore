@@ -1,0 +1,26 @@
+# Python-specifika filer
+*.pyc
+__pycache__/
+
+# Virtuella miljöer
+venv/
+.venv/
+
+# Jupyter/Colab-specifika filer
+.ipynb_checkpoints/
+
+# Datafiler genererade av projektet
+data/
+bitcoin_raw.json
+bitcoin_processed.csv
+
+# README-filen (om den genereras av notebooken)
+README.md
+
+# Temporära filer och loggar
+*.log
+*.tmp
+*.bak
+
+# Colab-specifika dolda kataloger
+.config/
