@@ -37,8 +37,7 @@ Projektet visar integrationen av API, Pandas, OOP och ML-förberedelse framgång
 *   Jag skulle också kunna lägga till ännu mer avancerade beräkningar eller fler visualiseringar.
 
 ## 🔗 GitHub-länk
-https://github.com/Shorka84/Bitcoin_tracker
-
+(https://github.com/Shorka84/Bitcoinprojekt)
 ## ⚙️ Installation & Körning
 1.  **Klona repositoryt**.
 2.  **Installera bibliotek**: `pip install requests pandas scikit-learn`
