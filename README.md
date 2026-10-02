@@ -7,8 +7,8 @@ Hämta hem bitcoin data och validera samt normalisera den. Även beräkning av m
 *   **Datahämtning**: Använder CoinGecko API
 *   **Datahantering**: Sparar rådata i `JSON` och bearbetad data i `CSV` (`pandas`).
 *   **Feature Engineering**: Beräknar `MA20`, `MA50` och volatilitet. Medelvärden, Detta för att kunna beräkna risk för investerare.
-*   **Visualiserar datan med matplotlib**
-*   **Normalisering**: Skalar data med `MinMaxScaler` (`sklearn`) inför ML/AI.
+*   **Visualiserar datan med matplotlib** genom ett linjediagram för att se trenden.
+*   **Normalisering**: Skalar data med `MinMaxScaler` (`sklearn`) Skapar om datan 0-1 inför ML/AI.
 *   **Felhantering**: `try-except` för API-anrop och filåtgärder.
 
 ## 📊 Resultat
@@ -36,8 +36,14 @@ Projektet visar integrationen av API, Pandas, OOP och ML-förberedelse framgång
 *   Men i ett större projekt skulle jag kanske bryta ut koden i fler mindre delar (moduler) för att göra det mer organiserat.
 *   Jag skulle också kunna lägga till ännu mer avancerade beräkningar eller fler visualiseringar.
 
+## Certifieringar
+Inom ramen för Mål 5 har jag kartlagt branschens mest efterfrågade yrkescertifieringar för AI-utvecklare. 
+För min specifika profil väger Databricks Certified Machine Learning Associate samt AWS och Azure AI Engineer tyngst, då de validerar kompetens inom automatiserade datapipelines och molnbaserad infrastruktur. 
+Även certifieringar inom TensorFlow / Hugging Face och Python PCAP högst relevanta, eftersom de direkt speglar mitt projektarbete med att strukturera, felhantera och normalisera rådata inför modellträning.
+
 ## 🔗 GitHub-länk
-(https://github.com/Shorka84/Bitcoinprojekt)
+https://github.com/Shorka84/Bitcoinprojekt
+
 ## ⚙️ Installation & Körning
 1.  **Klona repositoryt**.
 2.  **Installera bibliotek**: `pip install requests pandas scikit-learn`
